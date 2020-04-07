@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  padding: 3rem 0rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+button {
+  font-size: 1.8rem;
+}
+
+nav {
+  background: rgb(61, 81, 102);
+  color: white;
+  padding: 3rem;
+}
+
+nav h1 {
+  float: left;
+  margin: 0rem 4rem;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+}
+
+.hero-section {
+  background-image: url("/two-black-bicycles-beside-gray-frame-glass-window-880467.jpg");
+  height: 80rem;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-top: 15rem;
+  text-shadow: 3px 3px 10px black;
+}
+
+.hero-section button {
+  padding: 1rem 5rem;
+  cursor: pointer;
+  margin-top: 4rem;
+  background: rgb(59, 119, 184);
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
+
+.hero-section h2,
+h3,
+button {
+  margin-left: 12rem;
+}
+
+.form-section {
+  text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+  resize: none;
+  border-radius: 3px;
+  padding: 5px;
+  width: 30%;
+}
+
+form button {
+  margin-bottom: 10rem;
+  background: rgb(72, 106, 143);
+  padding: 10px;
+  border: none;
+  color: white;
+  width: 30%;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  letter-spacing: 3px;
+}
+
+form button:hover {
+  opacity: 1;
+}
